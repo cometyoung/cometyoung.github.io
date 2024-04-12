@@ -6,78 +6,76 @@
     <title>Xinhui's Personal Page</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #fff;
             color: #333;
             line-height: 1.6;
             margin: 0;
             padding: 0;
         }
         .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
         }
         header {
-            background: #50b3a2;
-            color: #ffffff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #e8491d 3px solid;
+            color: #333;
+            margin-bottom: 40px;
         }
-        header a {
-            color: #ffffff;
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 0;
+        }
+        header nav a {
+            color: #333;
             text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
+            font-size: 1.1em;
+            margin-right: 15px;
         }
-        header ul {
-            padding: 0;
-            list-style: none;
+        header nav a:hover {
+            color: #017acd;
         }
-        header li {
-            display: inline;
-            padding: 0 20px 0 20px;
+        section.content {
+            margin-bottom: 40px;
         }
-        header #branding {
-            float: left;
+        footer {
+            text-align: center;
+            color: #555;
         }
-        header #branding h1 {
-            margin: 0;
+        .contact-links a {
+            color: #017acd;
+            text-decoration: none;
         }
-        header nav {
-            float: right;
-            margin-top: 10px;
-        }
-        header .highlight, header .current a {
-            color: #e8491d;
-            font-weight: bold;
-        }
-        header a:hover {
-            color: #ffffff;
-            font-weight: bold;
+        .contact-links a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <div id="branding">
-                <h1>Xinhui's Personal Page</h1>
-            </div>
+            <h1>Xinhui Yang</h1>
             <nav>
-                <ul>
-                    <li class="current"><a href="https://www.linkedin.com/in/xinhui-yang-05920b11b/">LinkedIn</a></li>
-                    <li><a href="http://xinhui-yang.com">Creative Page</a></li>
-                </ul>
+                <a href="#">Home</a>
+                <a href="http://xinhui-yang.com">Art</a>
             </nav>
         </div>
     </header>
     
-    <div class="container">
+    <section class="container content">
         <p>Hello, everyone!</p>
         <p>This is Xinhui. Welcome to my personal page!</p>
-        <p>It's nice meeting you, and you may reach out to me via the links above.</p>
-    </div>
+        <p>It's nice meeting you, and you may reach out to me via the links below.</p>
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/xinhui-yang-05920b11b/">LinkedIn</a> |
+            <a href="http://xinhui-yang.com">Creative Page</a>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            &copy; 2024 Xinhui Yang. All rights reserved.
+        </div>
+    </footer>
 </body>
 </html>
