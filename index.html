@@ -67,11 +67,28 @@
     img {
         width: 25%;
     }
+    
     </style>
+    
+    .profile-flex-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin-bottom: 20px;
+    }
+    
+    .profile-picture {
+    max-width: 25%; /* Adjust the size of the image */
+    margin-right: 20px; /* Add some space between the image and the text */
+    }
+    
+    .profile-details {
+    max-width: 75%; /* Adjust the width of the text container */
+    }
+
     
     <div class="container content">
         <div class="profile-flex-container">
-            <img src="images/my-photo.jpg" alt="A photo of me and my cat" class="profile-picture">
+            <img src="images/my-photo1.jpg" alt="A photo of me and my cat" class="profile-picture">
             <div class="profile-details">
                 <p>Programming languages: R, Python</p>
                 <p>Hobbies: reading,boxing, and multiple sports except for swimming</p>
@@ -79,6 +96,7 @@
         </div>
         <!-- Rest of the content -->
 </div>
+
     
     <section class="container content">
         <p>Hi, welcome to my space!</p>
