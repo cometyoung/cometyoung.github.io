@@ -1,8 +1,0 @@
-#fortune-display {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: black;
-    color: limegreen;
-    padding: 10px;
-    margin: 10px 0;
-    white-space: pre-wrap; /* Maintains spacing and formatting */
-}
